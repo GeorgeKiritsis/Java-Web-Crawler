@@ -37,7 +37,7 @@ A simple Java-based web crawler that recursively explores web pages starting fro
    - Link reference frequency
 
 ## Example Output
-
+```bash
 Index - Link Reference List:
 [0]: https://example.com
 [1]: https://example.com/about
@@ -56,6 +56,7 @@ Adjacency Matrix:
 Most Contained Link by Length: https://example.com/about
 Most Contained Link by Width: https://example.com/contact
 Most Contained Link by redirection Count: https://example.com/about with 3 occurrences.
+```
 
 ## How to Run
 
@@ -72,8 +73,8 @@ Most Contained Link by redirection Count: https://example.com/about with 3 occur
    java -cp .:jsoup-1.14.3.jar com.example.Crawler
    
 **Notes**
-Max Depth is currently set to 3. You can change it via MAX_DEPTH constant.
+-Max Depth is currently set to 3. You can change it via MAX_DEPTH constant.
 
-SSL verification is disabled by default for development purposes. Do not use in production.
+-SSL verification is disabled by default for development purposes. Do not use in production.
 
-The crawler does not handle robots.txt compliance.
+-The crawler does not handle robots.txt compliance.
