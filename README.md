@@ -66,11 +66,11 @@ Most Contained Link by redirection Count: https://example.com/about with 3 occur
 
 2. **Compile**:
    ```bash
-   javac -cp .:jsoup-1.14.3.jar com/example/Crawler.java
+   $ javac -cp .:jsoup-1.14.3.jar com/example/Crawler.java
 
 3. **Run**:
    ```bash
-   java -cp .:jsoup-1.14.3.jar com.example.Crawler
+   $ java -cp .:jsoup-1.14.3.jar com.example.Crawler
    
 ## Notes
 
