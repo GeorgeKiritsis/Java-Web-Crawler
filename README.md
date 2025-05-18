@@ -1,4 +1,4 @@
-# Java-Web-Crawler
+
 # Java Web Crawler
 
 A simple Java-based web crawler that recursively explores web pages starting from a base URL, constructs an adjacency matrix representing the hyperlink structure, and analyzes which pages are most referenced by others.
@@ -72,9 +72,8 @@ Most Contained Link by redirection Count: https://example.com/about with 3 occur
    ```bash
    java -cp .:jsoup-1.14.3.jar com.example.Crawler
    
-**Notes**
--Max Depth is currently set to 3. You can change it via MAX_DEPTH constant.
+## Notes
 
--SSL verification is disabled by default for development purposes. Do not use in production.
-
--The crawler does not handle robots.txt compliance.
+  -Max Depth is currently set to 3. You can change it via MAX_DEPTH constant.
+  -SSL verification is disabled by default for development purposes. Do not use in production.
+  -The crawler does not handle robots.txt compliance.
