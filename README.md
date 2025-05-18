@@ -74,6 +74,6 @@ Most Contained Link by redirection Count: https://example.com/about with 3 occur
    
 ## Notes
 
-  -Max Depth is currently set to 3. You can change it via MAX_DEPTH constant.
-  -SSL verification is disabled by default for development purposes. Do not use in production.
-  -The crawler does not handle robots.txt compliance.
+- Max Depth is currently set to 3. You can change it via MAX_DEPTH constant.
+- SSL verification is disabled by default for development purposes. Do not use in production.
+- The crawler does not handle robots.txt compliance.
